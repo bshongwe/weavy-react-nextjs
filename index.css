@@ -1,0 +1,78 @@
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom Styles */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131c21;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #394045;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+aside {
+  width: 40rem;
+}
+.green-text {
+  color: #00a884;
+}
+.green-bg {
+  color: #00a884;
+}
+.green-border {
+  border-color: #00a884;
+}
+.main-header,
+.aside-header {
+  background-color: #2a2f32;
+}
+.main-footer {
+  background-color: #1e2428;
+}
+.search-bar,
+.message, .aside-messages {
+  background-color: #131c21;
+}
+.search-bar input,
+.message-active {
+  background-color: #323739;
+}
+.single-message {
+  background-color: #262d31;
+}
+.single-message.user {
+  background-color: #056162;
+}
+.incoming-svg {
+  color: #262d31;
+  transform: scaleX(-1);
+}
+.user-svg {
+  color: #056162;
+}
+.message-input {
+  background-color: #33383b;
+}
+.bg-whatsapp {
+  background-color: #0d1418;
+  background-image: url(https://web.whatsapp.com/img/bg-chat-tile-dark_a4be512e7195b6b733d9110b408f075d.png);
+  background-size: inherit;
+  background-position: top;
+  background-repeat: repeat;
+}
+.main-messages {
+  background: #0e1921f0;
+}
